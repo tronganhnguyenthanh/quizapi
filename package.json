@@ -1,0 +1,31 @@
+{
+  "name": "quizapi",
+  "version": "1.0.0",
+  "description": "This is quiz api",
+  "keywords": [
+    "QuizApi"
+  ],
+  "homepage": "https://github.com/tronganhnguyenthanh/quizapi#readme",
+  "bugs": {
+    "url": "https://github.com/tronganhnguyenthanh/quizapi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tronganhnguyenthanh/quizapi.git"
+  },
+  "license": "ISC",
+  "author": "Trọng Anh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "No need for now",
+    "server":"nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1",
+    "nodemon": "^3.1.14"
+  }
+}
